@@ -1,5 +1,6 @@
 # mcp-server-demo
 
+```mermaid
 graph TD
   A["User Request: \"Plan business trip to Tokyo\""] --> B[Discovery Phase]
   B --> C[Client Agent identifies needed specialists: Flights, Hotels, Activities]
@@ -19,3 +20,4 @@ graph TD
   N -->|Failure| P[Mark as Failed]
   O --> Q[Main Agent combines results&lt;br&gt;with Hotel/Transport/Activity agents]
   Q --> R[Present Comprehensive Itinerary]
+```
